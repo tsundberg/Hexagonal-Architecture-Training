@@ -169,13 +169,13 @@ package `se.thinkcode.borrower.v1` in the
 test source.
 
 ```
-class BottowerControllerTest 
+class BorrowerControllerTest 
 ```
 
 Create a controller that can create a borrower in the same package but in the production code.
 
 ```
-public class BottowerController
+public class BorrowerController
 ```
 
 Here is an example test:
@@ -195,7 +195,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 
-public class BottowerControllerTest {
+public class BorrowerControllerTest {
 
     private final BorrowerService service = new BorrowerService();
     private final BorrowerController controller = new BorrowerController(service);
